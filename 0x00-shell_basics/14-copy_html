@@ -1,3 +1,3 @@
 #!/bin/bash
-cp -vr *.html /home/
+cp -vfr *.html /home/
 
