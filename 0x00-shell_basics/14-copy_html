@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -uvr *.ht /home/holberton-system_engineering-devops
+cp -uvr *.html /home/holberton-system_engineering-devops
