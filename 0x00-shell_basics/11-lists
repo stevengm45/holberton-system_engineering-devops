@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -lanr /home/holberton-system_engineering-devops/0x00-shell_basics /home/holberton-system_engineering-devops/ /boot
+
