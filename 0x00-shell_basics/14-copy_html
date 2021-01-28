@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -vr --update *.html /home/holberton-system_engineering-devops
+cp -fu *.html /home/holberton-system_engineering-devops
