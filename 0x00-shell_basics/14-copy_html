@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -vrun *.html /home/holberton-system_engineering-devops
+cp -ru *.html /home/holberton-system_engineering-devops
