@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -vruf *.html /home/holberton-system_engineering-devops/
+cp -fu *.html /home/holberton-system_engineering-devops/
