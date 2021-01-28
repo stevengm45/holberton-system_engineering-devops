@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -uvr *.html /home/holberton-system_engineering-devops
+cp -uvr /home/holberton-system_engineering-devops/0x00-shell_basics/*.html /home/holberton-system_engineering-devops
