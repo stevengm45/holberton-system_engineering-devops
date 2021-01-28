@@ -1,3 +1,3 @@
 #!/bin/bash
-cp *.html /home/holberton-system_engineering-devops
+cp --update *.html /home/holberton-system_engineering-devops
 
