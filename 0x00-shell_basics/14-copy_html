@@ -1,3 +1,3 @@
 #!/bin/bash
-cp -ruv *.html /home/holberton-system_engineering-devops/
+cp -vru *.html /home/holberton-system_engineering-devops/
 
