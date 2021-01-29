@@ -1,7 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-usermod -u betty uid
-
-=======
 su betty
->>>>>>> 8eb9e6b04428f40ad07132d2615d280ac577a5e0
