@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdri -m 751 dir_holberton .
+mkdri -m d751 dir_holberton
