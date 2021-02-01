@@ -1,0 +1,2 @@
+#!/bin/bash
+fing ./* -type d | wc -ls
