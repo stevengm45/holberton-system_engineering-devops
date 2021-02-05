@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 BINARY(echo ibase=10 | bc)
+=======
+echo $((2#$BINARY))
+>>>>>>> 481e6105a8d871c62953f8ec9f3d7c1dd6e87e67
