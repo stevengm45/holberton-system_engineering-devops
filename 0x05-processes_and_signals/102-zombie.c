@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <unistd.h>
 /**
- * infinite_while(void)
+ * infinite_while - infinity loop
+ * infinite_while(void): infinity loop
  * Return: 0
  */
 int infinite_while(void)
