@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This scritp displays listening ports
+netstat -lp
