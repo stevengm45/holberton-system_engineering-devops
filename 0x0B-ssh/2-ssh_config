@@ -1,0 +1,3 @@
+# Configuration file for connection ssh
+IdentityFile = ~/.ssh/holberton
+Batchmode = yes
