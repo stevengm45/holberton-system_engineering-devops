@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script that configures a new ubuntu machine and add error 404
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Holberton School for the win!" > /var/www/html/index.nginx-debian.html
+echo "Ceci n'est pas une page" > /usr/share/nginx/html/custom_404.html
+redirect_str="server_name _;\n\trewrite ^\/redirect_me google.com permanent;"
+page_404="\n\terror_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html {\n\t\troot \/usr\/share\/nginx\/html;\n\t\tinternal;\n\t}"
+sed -i "s/server_name _;/$redirect_string$page_404/" /etc/nginx/sites-enabled/default
+service nginx start
