@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# configuration to load balancer
 apt-get - y update
 apt-get -y install nginx
 sudo sed -i "/location \/ {/a\\\t\tadd_header X-Served-By $(hostname);" /etc/nginx/sites-available/default
