@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" This script use rest api return information about the id passed as argument """
+""" This script use rest api return information about
+    the id passed as argument """
 
 if __name__ == "__main__":
     import requests
